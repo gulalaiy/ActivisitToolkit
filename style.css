@@ -1,0 +1,121 @@
+
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+/*/ Styling text, sectioning and content tags /*/
+
+body {
+ font-size: 20px;
+ font-family: "Oswald", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal;
+ text-align: center;
+ background-color: #e1c4ad; 
+}
+
+header {
+   padding: 75px;
+   background-image: url("deer.jpg");
+}
+
+header h1 {
+   color: white;
+}
+
+header p {
+   color: white;
+}
+
+
+h1 {
+  color: black;
+}
+
+main {
+   margin-right: 5%;
+   margin-left: 5%;
+   margin-top: 3%;
+}
+
+main p {
+   margin-top: 2%;
+}
+
+h3 {
+   margin-top: 3%;
+}
+
+h4 {
+   color: #413730;
+   margin-top: 3%;
+}
+
+iframe {
+   border: 2px solid #94694c;
+   border-radius: 10%;
+}
+
+/*/ Navbar Styling /*/
+ ul li {
+   list-style-type: none;
+   margin-bottom: 10px;
+}
+
+.navbar ul {
+   padding: 0;
+   margin: 0;
+   position: fixed;
+   width: 100vw;
+   list-style-type: none;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   background-color: #413730;
+}
+
+.navbar li {
+   display: inline;
+   overflow: hidden;
+}
+
+.navbar li a {
+   color: white;
+   padding: 1px 14px;
+   text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #816146;
+}
+
+/*/ Fact generator styling /*/
+#factgen {
+   margin-top: 5%;
+   border-radius: 10%;
+   border: 2px solid #94694c;
+   padding: 20px, 20px;
+   background-color: #c8906a;
+}
+
+#myButton {
+     font-family: "Oswald", sans-serif;
+     margin-bottom: 3%;
+     margin-top: 3%;
+     background-color: #725840;
+     border: 2px solid #8d6d58;
+     color: #c89c7e;
+     padding: 4px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+}
+
+#fact {
+   border-radius: 10%;
+   border: 2px solid #8d6d58;
+   margin-top: 3%;
+}
